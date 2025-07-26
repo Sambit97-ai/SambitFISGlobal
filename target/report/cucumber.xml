@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.242" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add to Cart functionality on eBay" name="Successfully add a book to the cart" time="25.987">
+<system-out><![CDATA[
+Given I am on the eBay homepage.............................................passed
+When I search for "book"....................................................passed
+And I click on the first book in the search results.........................passed
+And I click the Add to cart button..........................................passed
+Then the cart icon should show "1" item.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
